@@ -1,0 +1,32 @@
+{
+  "name": "cypress-amazon-buyer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/steps/*.{js,ts}",
+    "filterSpecs": true,
+    "omitFiltered": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^15.7.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-plugin-xhr-toggle": "1.2.1",
+    "cypress-real-events": "1.13.0",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.27.1"
+  },
+  "dependencies": {
+    "local-pkg": "^0.5.0",
+    "resolve.exports": "^2.0.2"
+  }
+}
