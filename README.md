@@ -4,7 +4,7 @@ Cypress test automation of a recruitment website
 
 I used Cypress because of its versatibility and because its simple to explain step by step once you analyse the code due to its transparency.
 
-## Estratégia
+## Strategy
 
 I organized the automation separating the assets in "features" ; "commands" and "elements" in a page by page basis and the "steps" folder to contain the actual process tested.
 
@@ -13,7 +13,7 @@ Organizing the assets in this way the maintenance, you have an easier time build
 About the "steps" folder, I decided to use only one archive initially because of its reduced size but in the future I would possibly organize it either in a page by page like the other assets or in a metrics criteria depending on the objective.
 
 
-## Pré-Requisitos
+## Pre-requisites
 TO run the test scenarios in Gherkin using Cypress, follow the steps:
 
 Make sure you have Node.js installed. Execute:
